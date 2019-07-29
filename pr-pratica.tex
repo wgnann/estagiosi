@@ -11,20 +11,6 @@ usuário: zelele
 senha: zelele123
 \end{verbatim}
 
-\subsection*{Tabela de MAC}
-\begin{table}[h!]
-\begin{tabular}{ |c|c| }
-    \hline
-    usuário & mac-address \\ \hline
-    alopes & \verb+00:de:ad:be:ef:00+ \\ \hline
-    gnann & \verb+31:41:59:26:53:58+ \\ \hline
-    hcabral & \verb+00:fe:0f:f1:10:ff+ \\ \hline
-    milare & \verb+ca:fe:ca:fe:ca:fe+ \\ \hline
-    zelele & \verb+ab:bc:cd:de:ef:fg+ \\ \hline
-    zemane & \verb+00:de:ad:be:ef:00+ \\ \hline
-\end{tabular}
-\end{table}
-
 %%% HARDWARE %%%
 \section*{Hardware}
 \begin{questions}
@@ -67,14 +53,17 @@ Verificar o endereço \verb+IP+ do computador e mudar.
 \end{itemize}
 
 \question
-Instalar a impressora \verb+Borracha+ e imprimir uma página de teste. O
-endereço dela na rede é
+Instalar a impressora \verb+Escada+ e imprimir uma página de teste. O
+endereço dela na rede é:
 
 \begin{quote}
-\verb+http://cups.ime.usp.br:631/printers/Borracha+
+\verb+http://cups.ime.usp.br:631/printers/Escada+
 \end{quote}
 
-e o \textit{driver} que ela usa está na \textit{Área de Trabalho}.
+e o \textit{driver universal} que ela usa está em:
+\begin{quote}
+    \url{https://si.ime.usp.br/downloads/SamsungUniversalPrintDriver3.exe}.
+\end{quote}
 
 \question
 Dadas as credenciais:
@@ -83,14 +72,13 @@ Dadas as credenciais:
 \item senha: \verb+pratiqueatividadesfisicasregularmente+
 \end{itemize}
 
-Instalar a versão do navegador \textit{Firefox} disponível na nossa rede
-no endereço:
+Mapear a seguinte pasta de rede:
 \begin{quotation}
     \verb+\\DONBOT\estagiprova+
 \end{quotation}
 
 \question
-Instalar a partir do site \url{https://ninite.com/} o \textit{Java}$\ldots$
+Instalar o gerenciador de pacotes \textit{Chocolatey} e, a partir dele, o pacote \verb+adobereader+.
 
 \question
 Instalar o \textit{R}.
@@ -115,25 +103,17 @@ com a máscara \verb+255.255.192.0+ e o \verb+gateway+ como \verb+192.168.45.1+
  e \verb+DNS+ como \verb+143.107.45.1+.
 
 \question
-Instalar a impressora \verb+Borracha+ e imprimir uma página de teste. O
-endereço dela na rede é
+Instalar a impressora \verb+Escada+ utillizando \textit{Generic IPP Everywhere} e imprimir uma página de teste. O endereço dela na rede é:
 
 \begin{quote}
-\verb+http://cups.ime.usp.br:631/printers/Borracha+
-\end{quote}
-
-e o modelo dela é \verb+HP 1022+ e o \verb+PPD+ pode ser obtido em:
-\begin{quote}
-\verb+http://cups.ime.usp.br:631/printers/Borracha.ppd+
+\verb+http://cups.ime.usp.br:631/printers/Escada+
 \end{quote}
 
 \question
 Instalar a versão atualizada do navegador \textit{Chromium}.
 
 \question
-Instalar a versão 6 do \textit{Libre Office}
-
-OBS: sugerimos utilizar a versão do \verb+backports+ via gerenciador de pacotes.
+Instalar o \textit{Libre Office} utilizando o repositório \textit{backports} da versão correspondente à distribuição instalada.
 
 \question
 Instalar o \verb+PlayOnLinux+ utilizando algum gerenciador de pacotes.
@@ -148,7 +128,7 @@ Adicionar a arquitetura \verb+i386+ usando os comandos:
 Usando o gerenciador de pacotes, instalar \verb+wine32-development+.
 
 \part
-Dentro do \verb+PlayOnLinux+, instalar o \textit{Microsoft Pinball}.
+Dentro do \verb+PlayOnLinux+, instalar o \textit{Notepad Plus Plus}.
 \end{parts}
 
 \question
@@ -160,10 +140,7 @@ e a senha
 \begin{quotation}
     \verb+pratiqueatividadesfisicasregularmente+
 \end{quotation}
-e cadastrar os endereços \verb+MAC+ fornecidos usando o
-comando \verb+novaplaca+.
-
-OBS: sugerimos cadastrar uma a uma.
+e criar um arquivo de texto contendo o nome do processo que está consumindo a maior quantidade de CPU.
 
 \question
 Reconfigurar o \textit{swap}.
@@ -173,7 +150,7 @@ Identificar qual partição está utilizando o \textit{swap}.
 \part
 Desligar o \textit{swap};
 \part
-Criar um novo \textit{swap} a partir de um arquivo.
+Criar um novo \textit{swap} a partir de um arquivo\footnote{Pode ser interessante fazer antes o exercício seguinte.}.
 \end{parts}
 
 \question
