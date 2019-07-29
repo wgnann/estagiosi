@@ -2,6 +2,7 @@
 Provas e informações sobre estágio na SI do IME
 
 O processo seletivo consiste de uma prova e uma entrevista. Os tópicos da prova são:
+
 Informática:
   - Comandos básicos em Linux e Windows;
     ex: ping, dir/ls, ipconfig/ifconfig, tracert/traceroute, copy/cp etc
