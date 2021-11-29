@@ -2,7 +2,7 @@
 Provas e informações sobre estágio na SI do IME
 
 Material de Linux:
-  - https://linux.ime.usp.br/arquivos/apostila.pdf
+  - https://www.ime.usp.br/~gnann/teach/linux/apostila.pdf
   - https://linuxjourney.com/
 
 O processo seletivo consiste de uma prova e uma entrevista. Os tópicos da prova são:
